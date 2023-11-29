@@ -22,15 +22,18 @@ def create_bar(extra_bar = False):
     """Create top bar, defined as function to allow duplication in other monitors"""
     return bar.Bar(
         [
-            gen_separator(25,50), ##error here
+            #linked with modules/widgets.py
+            gen_separator(25,50), 
             w_bar_icon,
             w_window_name,
             gen_spacer(),
             *gen_groupbox(),
             gen_spacer(),
             *((w_systray,) if not extra_bar else ()),
-            gen_separator(15,50),
-            vol_icon, w_vol,
+            gen_separator(10,50),
+            checkupdates_icon, w_checkupdates,
+            gen_separator(10,50),
+            cpu_icon,w_cpu,
             gen_separator(5,50),
             network_icon, w_network,
             gen_separator(11,50),
