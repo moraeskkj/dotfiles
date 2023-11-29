@@ -8,4 +8,4 @@ dotfiles of my dear **Arch Linux** setup, my main tasks using this environment a
 **Compositor:** [Picom](https://github.com/fdev31/picom) \
 **Shell:** [Fish](https://fishshell.com/) \
 **Terminal:** [Alacritty](https://github.com/alacritty/alacritty) \
-**Editor:** [Neovim]([https://github.com/neovim/neovim) \
+**Editor:** [Neovim](https://github.com/neovim/neovim) \
