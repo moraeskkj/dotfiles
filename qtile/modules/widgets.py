@@ -103,9 +103,10 @@ w_systray = widget.Systray(
 #    padding=8,
 #)
 
+
 cpu_icon = widget.TextBox(
-    text = " ",
-    fontsize=17,
+    text = "⟳",
+    fontsize=18,
 )
 
 w_cpu = widget.CPU(
@@ -113,22 +114,8 @@ w_cpu = widget.CPU(
     padding=7,
 )
 
-checkupdates_icon = widget.TextBox(
-    text = "⟳ ",
-    fontsize= 18,
-)
-
-w_checkupdates = widget.CheckUpdates(
-    distro = "Arch_checkupdates",
-    update_interval = 2000,
-    colour_have_updates = colors[3],
-    no_update_string='No updates',
-    display_format = "{updates} Updates",
-    execute= 'alacritty -e sudo paru -Syu',
-)
-
 network_icon = widget.TextBox(
-    text="󰍛 ",
+    text=" ",
     fontsize=18,
 )
 

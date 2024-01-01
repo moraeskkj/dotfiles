@@ -31,8 +31,6 @@ def create_bar(extra_bar = False):
             gen_spacer(),
             *((w_systray,) if not extra_bar else ()),
             gen_separator(10,50),
-            checkupdates_icon, w_checkupdates,
-            gen_separator(10,50),
             cpu_icon,w_cpu,
             gen_separator(5,50),
             network_icon, w_network,
